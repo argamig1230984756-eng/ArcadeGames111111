@@ -1,0 +1,16 @@
+name: OpenArcade
+version: 1.0.0
+main: dev.openarcade.OpenArcade
+api-version: '1.21'
+description: Small open-source arcade minigames (Spleef, TNT Run, Block Party).
+commands:
+  arcade:
+    description: OpenArcade main command
+    aliases: [arc]
+permissions:
+  arcade.play:
+    description: Join and leave arcade games
+    default: true
+  arcade.admin:
+    description: Create and manage arenas
+    default: op

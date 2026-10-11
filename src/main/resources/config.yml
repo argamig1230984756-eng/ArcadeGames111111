@@ -1,0 +1,14 @@
+# Seconds of countdown once the minimum player count is reached
+countdown: 15
+min-players: 2
+max-players: 16
+# Largest allowed arena side length in blocks
+max-arena-size: 80
+# Console commands run for the winner. %player% is replaced with their name.
+# Example: ["give %player% diamond 3", "eco give %player% 100"]
+reward-commands: []
+# Compass that opens the games menu. Given when a player joins the server
+# (and on respawn). Players inside a game always get the menu/info/leave items.
+lobby-item:
+  give-on-join: true
+  slot: 8
